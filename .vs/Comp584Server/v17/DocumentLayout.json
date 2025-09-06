@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ceg99716\\source\\repos\\Comp584Server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{816BE944-9F60-445A-A15F-B95F8209704D}|Comp584Server\\Comp584Server.csproj|c:\\users\\ceg99716\\source\\repos\\comp584server\\comp584server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{816BE944-9F60-445A-A15F-B95F8209704D}|Comp584Server\\Comp584Server.csproj|solutionrelative:comp584server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{816BE944-9F60-445A-A15F-B95F8209704D}|Comp584Server\\Comp584Server.csproj|c:\\users\\ceg99716\\source\\repos\\comp584server\\comp584server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{816BE944-9F60-445A-A15F-B95F8209704D}|Comp584Server\\Comp584Server.csproj|solutionrelative:comp584server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ceg99716\\source\\repos\\Comp584Server\\Comp584Server\\Program.cs",
+              "RelativeDocumentMoniker": "Comp584Server\\Program.cs",
+              "ToolTip": "C:\\Users\\ceg99716\\source\\repos\\Comp584Server\\Comp584Server\\Program.cs",
+              "RelativeToolTip": "Comp584Server\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T23:51:36.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\ceg99716\\source\\repos\\Comp584Server\\Comp584Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "Comp584Server\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\ceg99716\\source\\repos\\Comp584Server\\Comp584Server\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "Comp584Server\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-05T23:45:03.621Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
