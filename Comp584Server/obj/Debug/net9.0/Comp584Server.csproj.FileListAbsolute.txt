@@ -34,3 +34,4 @@ C:\Users\ceg99716\source\repos\Comp584Server\Comp584Server\obj\Debug\net9.0\ref\
 C:\Users\ceg99716\source\repos\Comp584Server\Comp584Server\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\ceg99716\source\repos\Comp584Server\Comp584Server\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\ceg99716\source\repos\Comp584Server\Comp584Server\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\ceg99716\source\repos\Comp584Server\Comp584Server\obj\Debug\net9.0\Comp584Server.sourcelink.json
