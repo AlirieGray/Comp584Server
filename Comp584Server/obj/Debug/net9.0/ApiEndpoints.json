@@ -109,6 +109,26 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Comp584Server.Controllers.SeedController",
+    "Method": "PostCities",
+    "RelativePath": "seedCities",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Comp584Server.Controllers.SeedController",
+    "Method": "PostCountries",
+    "RelativePath": "seedCountries",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Comp584Server.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

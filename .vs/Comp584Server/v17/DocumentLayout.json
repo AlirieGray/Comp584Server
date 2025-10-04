@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ceg99716\\source\\repos\\Comp584Server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{816BE944-9F60-445A-A15F-B95F8209704D}|Comp584Server\\Comp584Server.csproj|c:\\users\\ceg99716\\source\\repos\\comp584server\\comp584server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{816BE944-9F60-445A-A15F-B95F8209704D}|Comp584Server\\Comp584Server.csproj|solutionrelative:comp584server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{816BE944-9F60-445A-A15F-B95F8209704D}|Comp584Server\\Comp584Server.csproj|c:\\users\\ceg99716\\source\\repos\\comp584server\\comp584server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{816BE944-9F60-445A-A15F-B95F8209704D}|Comp584Server\\Comp584Server.csproj|solutionrelative:comp584server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{816BE944-9F60-445A-A15F-B95F8209704D}|Comp584Server\\Comp584Server.csproj|c:\\users\\ceg99716\\source\\repos\\comp584server\\comp584server\\controllers\\seedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{816BE944-9F60-445A-A15F-B95F8209704D}|Comp584Server\\Comp584Server.csproj|solutionrelative:comp584server\\controllers\\seedcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{816BE944-9F60-445A-A15F-B95F8209704D}|Comp584Server\\Comp584Server.csproj|c:\\users\\ceg99716\\source\\repos\\comp584server\\comp584server\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{816BE944-9F60-445A-A15F-B95F8209704D}|Comp584Server\\Comp584Server.csproj|solutionrelative:comp584server\\controllers\\countriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D3805AA3-5F55-423F-8B5B-434DF0F3BCB2}|WorldModel\\WorldModel.csproj|c:\\users\\ceg99716\\source\\repos\\comp584server\\worldmodel\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{D3805AA3-5F55-423F-8B5B-434DF0F3BCB2}|WorldModel\\WorldModel.csproj|solutionrelative:worldmodel\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D3805AA3-5F55-423F-8B5B-434DF0F3BCB2}|WorldModel\\WorldModel.csproj|c:\\users\\ceg99716\\source\\repos\\comp584server\\worldmodel\\weathercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "WeatherContext.cs",
               "DocumentMoniker": "C:\\Users\\ceg99716\\source\\repos\\Comp584Server\\WorldModel\\WeatherContext.cs",
               "RelativeDocumentMoniker": "WorldModel\\WeatherContext.cs",
@@ -48,55 +40,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\ceg99716\\source\\repos\\Comp584Server\\WorldModel\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "WorldModel\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\ceg99716\\source\\repos\\Comp584Server\\WorldModel\\appsettings.Development.json",
-              "RelativeToolTip": "WorldModel\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-03T23:31:47.148Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\ceg99716\\source\\repos\\Comp584Server\\Comp584Server\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "Comp584Server\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\ceg99716\\source\\repos\\Comp584Server\\Comp584Server\\appsettings.Development.json",
-              "RelativeToolTip": "Comp584Server\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-04T00:17:46.737Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ceg99716\\source\\repos\\Comp584Server\\Comp584Server\\Program.cs",
-              "RelativeDocumentMoniker": "Comp584Server\\Program.cs",
-              "ToolTip": "C:\\Users\\ceg99716\\source\\repos\\Comp584Server\\Comp584Server\\Program.cs",
-              "RelativeToolTip": "Comp584Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T00:13:56.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "CountriesController.cs",
               "DocumentMoniker": "C:\\Users\\ceg99716\\source\\repos\\Comp584Server\\Comp584Server\\Controllers\\CountriesController.cs",
               "RelativeDocumentMoniker": "Comp584Server\\Controllers\\CountriesController.cs",
               "ToolTip": "C:\\Users\\ceg99716\\source\\repos\\Comp584Server\\Comp584Server\\Controllers\\CountriesController.cs",
               "RelativeToolTip": "Comp584Server\\Controllers\\CountriesController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwA0AAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T00:10:52.357Z",
+              "WhenOpened": "2025-10-04T00:35:47.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeedController.cs",
+              "DocumentMoniker": "C:\\Users\\ceg99716\\source\\repos\\Comp584Server\\Comp584Server\\Controllers\\SeedController.cs",
+              "RelativeDocumentMoniker": "Comp584Server\\Controllers\\SeedController.cs",
+              "ToolTip": "C:\\Users\\ceg99716\\source\\repos\\Comp584Server\\Comp584Server\\Controllers\\SeedController.cs",
+              "RelativeToolTip": "Comp584Server\\Controllers\\SeedController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-04T00:33:55.542Z",
               "EditorCaption": ""
             }
           ]
