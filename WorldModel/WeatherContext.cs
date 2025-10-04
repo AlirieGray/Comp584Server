@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 
 namespace WorldModel;
 
@@ -20,7 +21,10 @@ public partial class WeatherContext : DbContext
     public virtual DbSet<Country> Countries { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseSqlServer("data source=(localdb)\\mssqllocaldb;initial catalog=GoldenWeather");
+    {
+        IConfigurationBuilder configBuilder = new ConfigurationBuilder()
+            .AddJsonFile("appsettings.json").AddJsonFile("appsettings.Development.json", optional: true);
+    }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
