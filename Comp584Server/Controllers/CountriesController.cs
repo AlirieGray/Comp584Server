@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Comp584Server.DTOs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -20,6 +21,21 @@ namespace Comp584Server.Controllers
             return await context.Countries.ToListAsync();
         }
 
+        [HttpGet("populations")]
+        public async Task<ActionResult<IEnumerable<PopulationDTO>>> GetCountryPopulations()
+        {
+            return await context.Countries.
+                Select(c => new PopulationDTO
+                {
+                    Id = c.Id,
+                    Name = c.Name,
+                    Iso2 = c.Iso2,
+                    Iso3 = c.Iso3,
+                    Population = c.Cities.Sum(city => city.Population)
+                }).
+                ToListAsync();
+        }
+
         // GET: api/Countries/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Country>> GetCountry(int id)
@@ -32,6 +48,19 @@ namespace Comp584Server.Controllers
             }
 
             return country;
+        }
+
+        [HttpGet("{id}/population")]
+        public PopulationDTO GetCountryPopulation(int id)
+        {
+            return context.Countries.Select(c => new PopulationDTO
+            {
+                Id = c.Id,
+                Name = c.Name,
+                Iso2 = c.Iso2,
+                Iso3 = c.Iso3,
+                Population = c.Cities.Sum(city => city.Population)
+            }).Single(c => c.Id == id);
         }
 
         // PUT: api/Countries/5

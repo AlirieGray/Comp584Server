@@ -34,12 +34,12 @@ namespace WorldModel.Migrations
                         .HasColumnType("int")
                         .HasColumnName("countryID");
 
-                    b.Property<double>("Lat")
-                        .HasColumnType("float")
+                    b.Property<decimal>("Lat")
+                        .HasColumnType("decimal(18,2)")
                         .HasColumnName("lat");
 
-                    b.Property<double>("Lng")
-                        .HasColumnType("float")
+                    b.Property<decimal>("Lng")
+                        .HasColumnType("decimal(18,2)")
                         .HasColumnName("lng");
 
                     b.Property<string>("Name")

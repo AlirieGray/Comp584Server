@@ -24,6 +24,10 @@ public partial class WeatherContext : DbContext
     {
         IConfigurationBuilder configBuilder = new ConfigurationBuilder()
             .AddJsonFile("appsettings.json").AddJsonFile("appsettings.Development.json", optional: true);
+        IConfiguration config = configBuilder.Build();
+        if (!optionsBuilder.IsConfigured) {
+            optionsBuilder.UseSqlServer(config.GetConnectionString("DefaultConnection"));
+        }
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
